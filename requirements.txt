@@ -1,11 +1,11 @@
 tweepy
-es-lemmatizer
 textblob
 plotly==4.0.0
 numpy
-polyglot
 unidecode
 nltk
 spacy
+wordcloud
+pandas
 
 #ipython kernel install --user --name=myvenv_text

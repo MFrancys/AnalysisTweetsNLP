@@ -19,6 +19,14 @@ To download the user's tweets in a csv file you must change the directory to src
 and run the script get_tweets.py. Also, you must place yout twitter credentials in the
 script api_information.py, which is the following location src\data\api_information.
 
+Installation:
+Create a virtual environment variable and, then, run requirements.txt
+```bash
+1) python -m venv myvenv_text
+2) myvenv_text\Scripts\activate
+3) pip install -r requirements.txt
+```
+
 ```bash
 python get_tweets.py
 ```
@@ -26,7 +34,7 @@ python get_tweets.py
 To view the tweets and analyze them through NLP, you must run the notebok called analysis_twitter.ipynb
 
 ```bash
-1) ipython kernel install --user --name=myvenv
+1) ipython kernel install --user --name=myvenv_text
 2) jupyter notebook
 ```
 
